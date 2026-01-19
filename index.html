@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Apexstep Global Services</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Bootstrap CDN -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -10,10 +11,10 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
-  
+
 <body>
 
-<!-- Navbar -->
+<!-- NAVBAR -->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
   <div class="container">
     <a class="navbar-brand fw-bold" href="index.html">Apexstep Global Services</a>
@@ -29,81 +30,165 @@
   </div>
 </nav>
 
-<!-- Hero -->
+<!-- HERO (MOBILE-FIRST CARD STYLE) -->
 <header class="hero">
-    <div class="container text-center">
+  <div class="container">
+    <div class="hero-card shadow">
       <h1>Apexstep Global Services</h1>
-      <p>Professional solutions across laundry, agriculture, and land development.</p>
+      <p>
+        Professional solutions across laundry services, greenhouse management,
+        and agricultural real estate — built on trust, efficiency,
+        and long-term value.
+      </p>
+      <a href="#services" class="btn btn-brand w-100">
+        Explore Our Services
+      </a>
     </div>
-  </header>  
+  </div>
+</header>
 
-<!-- Services -->
-<section class="container py-5">
-    <h2 class="section-title">Our Services</h2>
-  
-    <div class="row g-4">
-  
-      <!-- Laundry -->
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="service-card">
-          <img src="assets/images/laundry.jpg" alt="Laundry Service">
-          <div class="service-content">
-            <h4>Laundry & Dry Cleaning</h4>
-            <p>Premium garment care using modern equipment and eco-safe processes.</p>
-            <a href="services/laundry.html" class="btn btn-brand">View Service</a>
-          </div>
+<!-- SERVICES -->
+<section id="services" class="container py-5">
+  <div class="text-center mb-5">
+    <h2>Our Business Divisions</h2>
+    <p>
+      Structured services designed to meet real operational
+      and market needs.
+    </p>
+  </div>
+
+  <div class="row g-4">
+
+    <!-- Laundry -->
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="service-card">
+        <img
+          src="https://fcdrycleaners.com/wp-content/uploads/2021/08/Whats-the-Difference-Between-Wash-and-Fold-and-Wash-and-Press.jpg"
+          alt="Laundry & Dry Cleaning"
+        >
+        <div class="service-content">
+          <h4>Laundry & Dry Cleaning</h4>
+          <p>
+            Professional garment care for households and
+            commercial clients, delivered with hygiene
+            and precision.
+          </p>
+          <a href="services/laundry.html" class="btn btn-brand w-100">
+            View Service
+          </a>
         </div>
       </div>
-  
-      <!-- Greenhouse -->
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="service-card">
-          <img src="assets/images/greenhouse.jpg" alt="Greenhouse Management">
-          <div class="service-content">
-            <h4>Greenhouse Management</h4>
-            <p>Efficient management and green produce supply solutions.</p>
-            <a href="services/greenhouse.html" class="btn btn-brand">View Service</a>
-          </div>
-        </div>
-      </div>
-  
-      <!-- Real Estate -->
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="service-card">
-          <img src="assets/images/land.jpg" alt="Agricultural Land">
-          <div class="service-content">
-            <h4>Agricultural Real Estate</h4>
-            <p>Sale and leasing of land for farming and development.</p>
-            <a href="services/realestate.html" class="btn btn-brand">View Service</a>
-          </div>
-        </div>
-      </div>
-  
     </div>
-  </section>
-  
 
-<!-- Mission & Vision -->
-<section class="mission">
-  <div class="container text-center">
-    <h3>Our Mission</h3>
-    <p>To provide dependable, innovative, and sustainable services that empower individuals, businesses, and communities.</p>
+    <!-- Greenhouse -->
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="service-card">
+        <img
+          src="https://www.agrivi.com/wp-content/uploads/2021/05/Greenhouse-Farming-Exceeds-Weather-Limitations-1200x565.jpg"
+          alt="Greenhouse Management"
+        >
+        <div class="service-content">
+          <h4>Greenhouse Management</h4>
+          <p>
+            Greenhouse setup, crop management, consulting,
+            irrigation systems, and produce marketing
+            for sustainable agriculture.
+          </p>
+          <a href="services/greenhouse.html" class="btn btn-brand w-100">
+            View Service
+          </a>
+        </div>
+      </div>
+    </div>
 
-    <h3 class="mt-4">Our Vision</h3>
-    <p>To become a leading multi-service company recognized for integrity, quality, and environmental responsibility.</p>
+    <!-- Real Estate -->
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="service-card">
+        <img
+          src="https://images.unsplash.com/photo-1500382017468-9049fed747ef"
+          alt="Agricultural Real Estate"
+        >
+        <div class="service-content">
+          <h4>Agricultural Real Estate</h4>
+          <p>
+            Verified sales and leasing of agricultural
+            and development land across strategic
+            locations.
+          </p>
+          <a href="services/realestate.html" class="btn btn-brand w-100">
+            View Service
+          </a>
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>
 
-<!-- Footer -->
+<!-- VALUE STATEMENT -->
+<section class="container py-5">
+  <div class="row g-4 text-center">
+
+    <div class="col-12 col-md-4">
+      <h4>Operational Excellence</h4>
+      <p>
+        Systems designed to work efficiently,
+        consistently, and transparently.
+      </p>
+    </div>
+
+    <div class="col-12 col-md-4">
+      <h4>Market Understanding</h4>
+      <p>
+        Services aligned with real market needs
+        across households, agriculture, and land.
+      </p>
+    </div>
+
+    <div class="col-12 col-md-4">
+      <h4>Long-Term Value</h4>
+      <p>
+        Sustainable partnerships focused on
+        trust, growth, and impact.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- MISSION & VISION -->
+<section class="mission">
+  <div class="container text-center">
+    <h3>Our Mission</h3>
+    <p>
+      To deliver dependable, innovative, and sustainable services
+      that support growth, productivity, and asset security.
+    </p>
+
+    <h3 class="mt-4">Our Vision</h3>
+    <p>
+      To become a trusted multi-sector service brand recognized
+      for integrity, operational excellence, and impact.
+    </p>
+  </div>
+</section>
+
+<!-- FOOTER -->
 <footer>
   <div class="container text-center">
-    <p>Address: [Your Office Address]</p>
-    <p>© 2026 Apexstep Global Services. All Rights Reserved.</p>
+    <p>
+      15, Sarata Aderibigbe Street, off Ibeshe Road,
+      Ikorodu, Lagos, Nigeria
+    </p>
+    <p>
+      © 2026 Apexstep Global Services. All Rights Reserved.
+    </p>
   </div>
 </footer>
 
-<!-- JS -->
+<!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <script src="assets/js/main.js"></script>
+
 </body>
 </html>

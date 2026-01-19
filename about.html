@@ -2,43 +2,139 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>About Us | Apexstep</title>
+  <title>About Us | Apexstep Global Services</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <!-- Bootstrap CDN -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
 
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">Apexstep Global Services</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO (MATCHES HOMEPAGE STYLE) -->
+<header class="hero">
+  <div class="container">
+    <div class="hero-card shadow">
+      <h1>About Apexstep</h1>
+      <p>
+        Apexstep Global Services is built on integrity, operational excellence,
+        and a commitment to delivering dependable solutions across essential sectors.
+      </p>
+    </div>
+  </div>
+</header>
+
+<!-- FOUNDER SECTION -->
 <section class="container py-5">
-  <div class="row align-items-center">
-    <div class="col-md-5">
-      <img src="assets/images/owner.jpg" class="img-fluid rounded">
-    </div>
-    <div class="col-md-7">
-      <h2>About the Founder</h2>
-      <p>
-        Apexstep Global Services is led by a visionary entrepreneur focused on
-        sustainable business solutions across essential sectors.
-      </p>
+  <div class="row g-4">
 
-      <p>
-        With hands-on experience in agriculture, service management, and real estate,
-        the company is driven by excellence and long-term value creation.
-      </p>
-
-      <a href="#" class="btn btn-outline-primary">LinkedIn</a>
-      <a href="#" class="btn btn-outline-primary">Facebook</a>
+    <!-- Image (STACKS FIRST ON MOBILE) -->
+    <div class="col-12 col-lg-5">
+      <div class="founder-image-wrapper">
+        <img src="assets/images/owner.jpg" alt="Sunday Stephen Ochoyama">
+      </div>
     </div>
+
+    <!-- Content -->
+    <div class="col-12 col-lg-7">
+      <div class="founder-content">
+        <h2>About the Founder</h2>
+
+        <p>
+          <strong>Sunday Stephen Ochoyama</strong> is a seasoned operations and business
+          development professional with a strong track record across service delivery,
+          agribusiness, and real estate operations in Nigeria.
+        </p>
+
+        <p>
+          As the Founder of <strong>Apexstep Global Services</strong>, he brings a
+          results-driven approach built on integrity, efficiency, and long-term value
+          creation. His leadership is shaped by years of hands-on experience managing
+          logistics, coordinating teams, and delivering dependable services.
+        </p>
+
+        <p>
+          With a background in Business Administration and deep practical exposure to
+          operations management and strategic planning, Sunday is committed to building
+          systems that work — transparently, sustainably, and consistently.
+        </p>
+
+        <div class="mt-4">
+          <a href="#" class="btn btn-brand me-2">LinkedIn</a>
+          <a href="#" class="btn btn-outline-dark">Facebook</a>
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>
 
+<!-- VALUES / DIRECTION -->
+<section class="container py-5">
+  <div class="row g-4 text-center">
+
+    <div class="col-12 col-md-4">
+      <h4>Integrity</h4>
+      <p>
+        We operate with honesty, transparency, and accountability
+        in all client and partner relationships.
+      </p>
+    </div>
+
+    <div class="col-12 col-md-4">
+      <h4>Excellence</h4>
+      <p>
+        We focus on efficient systems, quality delivery,
+        and continuous improvement.
+      </p>
+    </div>
+
+    <div class="col-12 col-md-4">
+      <h4>Sustainability</h4>
+      <p>
+        Our services are designed to support long-term value,
+        growth, and community impact.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
 <footer>
   <div class="container text-center">
-    <p> Address: [Your Office Address]</p>
+    <p>
+      15, Sarata Aderibigbe Street, off Ibeshe Road,
+      Ikorodu, Lagos
+    </p>
+    <p>
+      📞 +234 803 740 4483 &nbsp; | &nbsp; ✉️ sunst28@gmail.com
+    </p>
   </div>
 </footer>
 
+<!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <script src="assets/js/main.js"></script>
+
 </body>
 </html>
