@@ -1,59 +1,83 @@
 :root {
-    --primary: #B45A2A;
-    --dark: #5A5E63;
-    --light: #F3F0E6;
-    --gray: #8A8F95;
-    --white: #FFFFFF;
+    --brand: #B45A2A;
+    --dark: #1a1a1a;
+    --white: #ffffff;
   }
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
-
-body {
-  font-family: 'Inter', sans-serif;
-  background: var(--light);
-  color: var(--dark);
-}
-
-.navbar {
-  background: var(--dark);
-}
-
-.hero {
-  padding: 120px 20px;
-  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../images/hero.jpg');
-  background-size: cover;
-  color: white;
-}
-
-.section-title {
-  text-align: center;
-  margin-bottom: 40px;
-  font-weight: 700;
-}
-
-.service-card {
-  background: white;
-  padding: 25px;
-  border-radius: 10px;
-  transition: transform .3s ease;
-}
-
-.service-card:hover {
-  transform: translateY(-8px);
-}
-
-.btn-primary {
-  background: var(--primary);
-  border: none;
-}
-
-.mission {
-  background: var(--primary);
-  color: white;
-  padding: 60px 20px;
-}
-
-footer {
-  background: var(--dark);
-  color: white;
-  padding: 20px 0;
-}
+  
+  /* Global */
+  body {
+    background: var(--white);
+    color: var(--dark);
+    font-family: 'Inter', sans-serif;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background: var(--brand);
+  }
+  
+  .navbar a {
+    color: white !important;
+  }
+  
+  /* Hero */
+  .hero {
+    padding: 110px 15px;
+    background: linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
+                url('../images/hero.jpg') center/cover;
+    color: white;
+  }
+  
+  /* Section Title */
+  .section-title {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+  
+  /* Service Cards */
+  .service-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,.08);
+    transition: transform .3s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-6px);
+  }
+  
+  .service-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+  }
+  
+  .service-content {
+    padding: 20px;
+  }
+  
+  .service-content h4 {
+    font-weight: 600;
+  }
+  
+  /* Buttons */
+  .btn-brand {
+    background: var(--brand);
+    color: white;
+    border: none;
+  }
+  
+  .btn-brand:hover {
+    background: #9c4d23;
+    color: white;
+  }
+  
+  /* Footer */
+  footer {
+    background: var(--brand);
+    color: white;
+    padding: 25px 0;
+  }
+  
