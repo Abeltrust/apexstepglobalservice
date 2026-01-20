@@ -552,3 +552,140 @@
   .animate{
 
   }
+/* ======================================================
+   MOBILE COMPACT MODE – GLOBAL INTERFACE
+   Applies only on phones
+====================================================== */
+@media (max-width: 576px) {
+
+    /* NAVBAR */
+    .navbar {
+      padding-top: 0.4rem;
+      padding-bottom: 0.4rem;
+    }
+  
+    .navbar-brand {
+      font-size: 1rem;
+    }
+  
+    .nav-link {
+      padding: 0.4rem 0;
+      font-size: 0.95rem;
+    }
+  
+    /* HERO */
+    .index-hero {
+      min-height: 65vh;
+      padding-top: 4rem;
+      padding-bottom: 2rem;
+    }
+  
+    .index-hero .hero-card {
+      padding: 1.6rem 1.4rem;
+    }
+  
+    .index-hero h1 {
+      font-size: 1.7rem;
+      line-height: 1.25;
+    }
+  
+    .index-hero p {
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+  
+    .index-hero .btn {
+      font-size: 0.95rem;
+      padding: 0.7rem 1rem;
+    }
+  
+    /* MISSION / VISION */
+    .mission {
+      padding-top: 2.5rem !important;
+      padding-bottom: 2.5rem !important;
+    }
+  
+    .mission-sticker {
+      padding: 1.6rem 1.4rem;
+      border-radius: 18px;
+    }
+  
+    .mission-sticker h3 {
+      font-size: 1.25rem;
+    }
+  
+    .mission-sticker p {
+      font-size: 0.95rem;
+    }
+  
+    /* SECTION HEADERS */
+    section h2 {
+      font-size: 1.5rem;
+    }
+  
+    section p {
+      font-size: 0.95rem;
+    }
+  
+    /* SERVICE CARDS */
+    .service-card img {
+      height: 180px;
+      object-fit: cover;
+    }
+  
+    .service-card {
+      padding: 0;
+    }
+  
+    .service-content {
+      padding: 1.2rem 1.2rem 1.4rem;
+    }
+  
+    .service-content h4 {
+      font-size: 1.1rem;
+    }
+  
+    .service-content p {
+      font-size: 0.9rem;
+    }
+  
+    .service-content .btn {
+      font-size: 0.9rem;
+      padding: 0.65rem 0.9rem;
+    }
+  
+    /* VALUE STICKERS */
+    .value-card {
+      padding: 1.6rem 1.3rem;
+    }
+  
+    .value-icon {
+      width: 52px;
+      height: 52px;
+      font-size: 1.4rem;
+      margin-bottom: 0.8rem;
+    }
+  
+    .value-card h4 {
+      font-size: 1.1rem;
+    }
+  
+    .value-card p {
+      font-size: 0.9rem;
+    }
+  
+    /* FOOTER */
+    .site-footer {
+      padding: 2.5rem 0 2rem;
+    }
+  
+    .footer-title {
+      font-size: 1.05rem;
+    }
+  
+    .footer-text,
+    .footer-copy {
+      font-size: 0.85rem;
+    }
+  }
+  
