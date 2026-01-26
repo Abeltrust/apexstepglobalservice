@@ -19,10 +19,12 @@
   
   html {
     font-size: 16px; /* BIG mobile-first text */
-  }/* =====================================
-   MOBILE COMPACT MODE (FINAL TUNING)
-===================================== */
-@media (max-width: 576px) {
+  }
+  
+  /* =====================================
+     MOBILE COMPACT MODE (FINAL TUNING)
+  ===================================== */
+  @media (max-width: 576px) {
 
     /* BODY */
     body {
@@ -31,100 +33,100 @@
     }
   
     /* HEADINGS */
-    h1 { font-size: 1.6rem; }
-    h2 { font-size: 1.4rem; }
-    h3 { font-size: 1.2rem; }
-    h4 { font-size: 1.05rem; }
-  
+    h1 { font-size: 1.4rem; }
+    h2 { font-size: 1.2rem; }
+    h3 { font-size: 1.1rem; }
+    h4 { font-size: 1rem; }
+
     p {
-      font-size: 0.95rem;
-      margin-bottom: 0.9rem;
+      font-size: 0.9rem;
+      margin-bottom: 0.8rem;
     }
-  
+
     /* HERO */
     .hero {
-      min-height: 65vh;
+      min-height: 50vh;
     }
-  
+
     .hero-card,
     .hero-glass {
-      padding: 1.6rem 1.4rem;
+      padding: 1.4rem 1.2rem;
       max-width: 100%;
     }
-  
+
     /* BUTTONS */
     .btn {
-      padding: 10px 18px;
-      font-size: 0.9rem;
+      padding: 8px 16px;
+      font-size: 0.85rem;
     }
-  
+
     /* SERVICE CARDS */
     .service-card img,
     .image-wrapper img {
-      height: 170px;
+      height: 150px;
     }
-  
+
     .service-content {
-      padding: 1.2rem;
+      padding: 1rem;
     }
-  
+
     .service-content h4 {
-      font-size: 1.05rem;
+      font-size: 1rem;
     }
-  
+
     /* VALUE CARDS */
     .value-card {
-      padding: 1.5rem 1.3rem;
+      padding: 1.3rem 1.1rem;
     }
-  
+
     .value-icon {
-      width: 50px;
-      height: 50px;
-      font-size: 22px;
+      width: 45px;
+      height: 45px;
+      font-size: 20px;
     }
-  
+
     .value-card p {
-      font-size: 0.9rem;
-    }
-  
-    /* MISSION STICKER */
-    .mission {
-      padding: 2.5rem 0.5rem;
-    }
-  
-    .mission-sticker {
-      padding: 1.6rem 1.4rem;
-      border-radius: 18px;
-    }
-  
-    .mission-sticker hr {
-      margin: 1.2rem auto;
-      width: 60px;
-    }
-  
-    /* FOOTER */
-    .site-footer {
-      padding: 2.5rem 0 2rem;
-    }
-  
-    .footer-title {
-      font-size: 1.05rem;
-    }
-  
-    .footer-text,
-    .footer-copy {
       font-size: 0.85rem;
     }
-  
+
+    /* MISSION STICKER */
+    .mission {
+      padding: 2rem 0.5rem;
+    }
+
+    .mission-sticker {
+      padding: 1.4rem 1.2rem;
+      border-radius: 16px;
+    }
+
+    .mission-sticker hr {
+      margin: 1rem auto;
+      width: 50px;
+    }
+
+    /* FOOTER */
+    .site-footer {
+      padding: 2rem 0 1.5rem;
+    }
+
+    .footer-title {
+      font-size: 1rem;
+    }
+
+    .footer-text,
+    .footer-copy {
+      font-size: 0.8rem;
+    }
+
     /* WHATSAPP FLOATING ICON */
     .image-whatsapp {
-      width: 38px;
-      height: 38px;
+      width: 35px;
+      height: 35px;
     }
-  
+
     .image-whatsapp img {
-      width: 18px;
-      height: 18px;
+      width: 16px;
+      height: 16px;
     }
   }
   
@@ -132,7 +134,7 @@
   /* Slightly smaller base on phones */
   @media (max-width: 576px) {
     html {
-      font-size: 14.5px;
+      font-size: 13px;
     }
   }
   
@@ -143,6 +145,13 @@
     color: var(--text);
     background: var(--white);
     line-height: 1.75;
+  }
+  
+  /* Mobile body padding */
+  @media (max-width: 576px) {
+    body {
+      padding-top: 70px;
+    }
   }
   
   /* ================================
@@ -587,16 +596,6 @@
   }
   
   /* animation */
-  @keyframes fadeUp {
-    from {
-      opacity: 0;
-      transform: translateY(30px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
   /* SITE FOOTER */
 .site-footer {
     background: var(--brand); /* deep professional black */
@@ -636,7 +635,7 @@
 @media (max-width: 576px) {
 
     .index-hero {
-      min-height: 70vh; /* smaller hero on mobile */
+      min-height: 55vh; /* smaller hero on mobile */
       padding-top: 4.5rem;
       padding-bottom: 2rem;
     }
@@ -664,6 +663,3 @@
   
   
   /* ANIMATIONS */
-  .animate{
-
-  }
